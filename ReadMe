@@ -1,0 +1,45 @@
+List of Entities in Bank
+1. Account
+2. Customer
+3. Transaction
+4. Card
+5. Loan
+
+Dependencies
+1. A customer has an account\many account
+2. A customer has  a Card\many cards
+4. A customer has a loan\many loans
+5. A customer has a Transactions
+
+Classes and Interface
+Account - Interface
+Customer - class
+Transcation - class
+Card - class
+Loan - class
+
+classes implementing Account Interface
+1)SavingAccount
+2)CurrentAccount/SalaryAccount
+3)RecurringDeposit Account
+Methods in Account and data members in Account implemented classes
+1)Account number
+2)Full Name
+3)Phone Number
+4)Current Address
+5)Permanent Address
+6)Email Id
+methods
+getter and setters
+
+Pojo classes
+Customer
+Transcation
+Card
+Loan
+
+
+
+
+
+ 
